@@ -4,6 +4,6 @@ ehthumbs.db
 Desktop.ini
 
 # Cocos2d-x Engine generated folder
-/bin/
-/cocos2d/
+/bin/*
+/cocos2d/*
 /proj.win32/Debug.win32/*.tlog
