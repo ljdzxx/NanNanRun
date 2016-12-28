@@ -10,3 +10,4 @@ Desktop.ini
 /proj.win32/*.sdf
 /proj.android/*
 !/proj.android/jni/Android.mk
+!/proj.android/src/org/cocos2dx/cpp/AppActivity.java
