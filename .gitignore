@@ -6,4 +6,7 @@ Desktop.ini
 # Cocos2d-x Engine generated folder
 /bin/*
 /cocos2d/*
-/proj.win32/Debug.win32/*.tlog
+/proj.win32/Debug.win32/*
+/proj.win32/*.sdf
+/proj.android/*
+!/proj.android/jni/Android.mk

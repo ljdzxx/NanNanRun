@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dict>
+<!--关卡定义-->
+<key>globalvar.level</key>
+<string>1</string>
+<!--关卡Label-->
+<key>gamescene.level.title</key>
+<string>第%d关</string>
+<!--空中陷阱的(上、下)运动周期 4.36499-->
+<key>TrapsNode.newAirTrap.oil.down.duration</key>
+<string>2.0</string>
+<!--陷阱离金币的距离(前)-->
+<key>TrapsNode.TRAP_X_SPACE_BEFORE</key>
+<string>300</string>
+<!--陷阱离金币的距离(后)-->
+<key>TrapsNode.TRAP_X_SPACE_AFTER</key>
+<string>50</string>
+<!--默认的金币NODE大小-->
+<key>TrapsNode.DEFAULT_COIN_NODE_SIZE_X</key>
+<string>240</string>
+<key>TrapsNode.DEFAULT_COIN_NODE_SIZE_Y</key>
+<string>40</string>
+<!--正弦波蘑菇头底部离陷阱的距离(偏距k)-->
+<key>TrapsNode.SPACE_FROM_SIN_HAT_2_TRAP</key>
+<string>120</string>
+
+</dict>
