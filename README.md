@@ -24,7 +24,7 @@ ScoreNode-得分情况（跑动距离、金币数、血量等）；
 * 多边形顶点绘制工具：我用的是physics-body-editor，这是一个开源项目，在此获取：https://code.google.com/p/box2d-editor/
 
 
-模态窗口
+模态窗口：
 由于cocos2d-x 3.0之后的版本对事件分发机制做了较大的修改，该版本之上实现模态窗口相对简单很多，只需要创建一个遮罩层（项目中的DialogLayer.cpp）盖在所有其他层之上，捕获触摸事件之后设置不再往下传递即可；
 
 关于按键监控：
@@ -32,7 +32,8 @@ ScoreNode-得分情况（跑动距离、金币数、血量等）；
 
 
 关于Android 4.4+版本：
-由于Android 4.4之后的版本新增了沉浸模式，可以隐藏底下的4个功能键，这无疑给游戏玩家带来了更好的体验，所以我们发布到Android平台的游戏应该启用这个模式，我通过修改项目目录下的proj.android\src\org\cocos2dx\cpp\AppActivity.java文件来实现，参考了这个帖子中提到的实现方法（http://discuss.cocos2d-x.org/t/how-to-set-full-screen-on-android-4-4/10278），我修改了一下可以完美兼容4.4以前的版本；
+由于Android 4.4之后的版本新增了沉浸模式，可以隐藏底下的4个功能键，这无疑给游戏玩家带来了更好的体验，所以我们发布到Android平台的游戏应该启用这个模式，我通过修改项目目录下的proj.android\src\org\cocos2dx\cpp\AppActivity.java文件来实现，参考了这个帖子中提到的实现方法(http://discuss.cocos2d-x.org/t/how-to-set-full-screen-on-android-4-4/10278)
+，我修改了一下可以完美兼容4.4以前的版本；
 
 关于性能优化：
 纹理图片：利用TexturePacker工具打包纹理，生成相应的plist和png文件；
